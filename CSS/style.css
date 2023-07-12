@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+@media(max-width:523px) {
+    .customer {
+        width: 100% !important;
+    }
+
+    .search {
+        width: 100% !important;
+    }
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../FONTS/Montserrat-Regular.ttf);
+}
+
+body {
+    background-color: #1D1E42 !important;
+}
+
+table {
+    color: #FFFFFF;
+    font-family: 'Montserrat-Regular';
+    width: 100%;
+}
+
+.search {
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    border-radius: 8px;
+    width: 385px;
+    height: 32px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-image: url(/images/akar-icons_search.svg);
+    background-repeat: no-repeat;
+    background-position-y:7px ;
+    background-position-x:7px;
+    padding-left: 24px;
+}
+.search::placeholder{
+    color: #FFFFFF;
+}
+.customer {
+    width: 139px;
+    height: 32px;
+    border-radius: 8px;
+    background-color: #624DE3;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14.63px;
+    margin-top: 10px ;
+    margin-right: 15px;
+}
+
+td,
+th {
+    color: white;
+    padding: 1rem 0.5rem !important;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: none !important;
+    border-width: 0;
+}
+td {
+    align-items: center;
+  
+}
+
+tr {
+    padding: 10px;
+    height: 64px;
+    align-items: center;
+}
+
+tr:nth-child(odd) {
+    background: #26264F;
+}
+
+table,
+tr,
+td {
+    border: none;
+    
+}
